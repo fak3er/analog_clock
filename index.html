@@ -12,13 +12,13 @@
     <div class="container">
         <div>1</div>
         <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
-        <div>7</div>
-        <div>8</div>
-        <div>9</div>
+        <div><span class="three">3</span></div>
+        <div><span class="up">4</span></div>
+        <div><span class="up">5</span></div>
+        <div><span class="up">6</span></div>
+        <div><span class="up">7</span></div>
+        <div><span class="up">8</span></div>
+        <div><span class="nine">9</span></div>
         <div>10</div>
         <div>11</div>
         <div>12</div>
@@ -27,8 +27,13 @@
     <div class="minutes"></div>
     <div class="seconds"></div>
     <div class="center"></div>
+    <audio hidden controls autoplay>
+    <source  src="clock.wav" type="audio/wav">
+      Your browser does not support the audio element.
+      </audio>
 </div>
-<div class="mvt">fluid</div>
+<div class="mvt" title="seconds needle fluid mouvement">fluid</div>
+<div title="ticking sound on/off" class="sound"></div>
 </body>
 <script src="script.js"></script>
 </html>
